@@ -1,0 +1,194 @@
+XH
+H 2 areas 16 global symbols
+M main.asm
+S _ftoa Ref0000
+S Counter16_WritePeriod Ref0000
+S LCD_Start Ref0000
+S Counter16_Stop Ref0000
+S _fpadd Ref0000
+S __r1 Ref0000
+S SleepTimer_Start Ref0000
+S LCD_PrString Ref0000
+S Counter16_wReadCounter Ref0000
+S _fpmul Ref0000
+S SleepTimer_SetTimer Ref0000
+S LCD_Position Ref0000
+S _ulong2fp Ref0000
+S LCD_PrCString Ref0000
+S Counter16_Start Ref0000
+S SleepTimer_EnableInt Ref0000
+S Port_0_Data_SHADE Ref0000
+S SleepTimer_bGetTimer Ref0000
+A text size C0 flags 0
+dbfile ./main.asm
+dbfunc 0 ? 0 I
+dbline 19 6
+dbline 2 9
+dbline 2 C
+dbline 1E E
+dbline 1F 11
+dbline 20 14
+dbline 22 17
+dbline 23 1A
+dbline 27 1D
+dbline 28 1F
+dbline 2 22
+dbline 3 25
+dbline 4 27
+dbline 2E 29
+dbline 2F 2A
+dbline 30 2B
+dbline 31 2C
+dbline 32 2D
+dbline 33 2E
+dbline 2 2F
+dbline 3 32
+dbline 4 34
+dbline 38 36
+dbline 39 39
+dbline 3B 3B
+dbline 3C 3E
+dbline 3D 40
+dbline 3F 42
+dbline 40 44
+dbline 41 46
+dbline 42 48
+dbline 43 4A
+dbline 44 4C
+dbline 46 4E
+dbline 47 50
+dbline 48 52
+dbline 4B 55
+dbline 4C 57
+dbline 4D 58
+dbline 4E 59
+dbline 4F 5A
+dbline 50 5B
+dbline 53 5D
+dbline 54 5F
+dbline 55 60
+dbline 56 61
+dbline 57 62
+dbline 58 63
+dbline 59 65
+dbline 5A 66
+dbline 5B 68
+dbline 5C 69
+dbline 5D 6C
+dbline 60 6E
+dbline 61 70
+dbline 62 71
+dbline 63 73
+dbline 64 74
+dbline 65 76
+dbline 66 77
+dbline 67 79
+dbline 68 7A
+dbline 69 7D
+dbline 6C 7F
+dbline 6D 81
+dbline 6E 82
+dbline 6F 84
+dbline 70 85
+dbline 71 87
+dbline 72 88
+dbline 73 8A
+dbline 74 8B
+dbline 75 8E
+dbline 78 90
+dbline 79 91
+dbline 7B 94
+dbline 7C 97
+dbline 7E 99
+dbline 7F 9B
+dbline 80 9D
+dbline 82 A0
+dbline 83 A2
+dbline 84 A4
+dbline 86 A7
+dbline 87 AA
+dbline 88 AC
+dbline 89 AE
+dbline 8A B1
+dbline 8B B4
+dbline 8E B7
+dbline 8F BA
+dbline 90 BC
+dbline 92 BE
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile SleepTimer.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/SleepTimer.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile LCD.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/LCD.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile Counter16.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/Counter16.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/PSoCGPIOINT.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./main.asm
+dbfunc 0 ? 0 I
+dbfile memory.inc
+dbfunc 0 ? 0 I
+dbfile ./main.asm
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+S _main Def0006
+S $lb$BLANK Def0000
+S $le$BLANK Def0006
+A bss size 11 flags 20
+S int_flag Def0002
+T 00 00 20 20 20 20 20 00 43 01 02 43 E0 20 71 01
+R 00 00 00 00
+T 00 0E 7C 00 00 7C 00 00 7C 00 00 55
+R 00 00 00 00 02 03 00 02 02 06 00 0F 02 09 00 06
+T 00 18 00 02 00 7C 00 00 50 01 7C 00 00 2E
+R 00 00 00 00 01 02 00 01 02 06 00 0E 02 0B 00 0A
+T 00 23 00 00 01 51 00 00 60 00 40 40 40 40 40 40
+R 00 00 00 00 03 02 00 10 03 06 00 10
+T 00 2F 26 00 00 FE 51 00 00 60 00 3C 00 02 00 AF
+R 00 00 00 00 03 03 00 10 03 07 00 10 01 0C 00 01
+T 00 3A FC 7C 00 00 5A 00 00 53 00 01 50 FF 12
+R 00 00 00 00 02 04 00 08 01 07 00 01 01 0A 00 01
+T 00 45 00 01 53 00 01 50 FF 1A 00 00 53
+R 00 00 00 00 01 02 00 01 01 05 00 01 01 0A 00 01
+T 00 4D 00 00 50 00 57 00 7C 00 00 50 00 08 4F 75
+R 00 00 00 00 01 02 00 01 02 09 00 0B
+T 00 5A 10 38 04 50 00 08 10 08 08 51 00 00 08 51
+R 00 00 00 00 01 0C 00 01
+T 00 67 00 01 08 7C 00 00 38 FA 50 C1 08 50 9B 08
+R 00 00 00 00 01 02 00 01 02 06 00 0C
+T 00 74 50 0F 08 50 91 08 7C 00 00 38 FC 50 3E 08
+R 00 00 00 00 02 09 00 04
+T 00 82 50 31 08 50 F0 08 50 3D 08 7C 00 00 38 FC
+R 00 00 00 00 02 0C 00 09
+T 00 90 4F 56 FB 00 00 7C 00 00 38 FA 50 00 58
+R 00 00 00 00 01 05 00 01 02 08 00 00
+T 00 9C 00 00 7C 00 00 50 00 00 57
+R 00 00 00 00 03 02 00 05 02 05 00 07 41 08 00 00
+T 00 A3 00 00 7C 00 00 7C 00 00 57 FF 50 FF 7C
+R 00 00 00 00 01 02 00 00 02 05 00 0D 02 08 00 03
+T 00 AF 00 00 7C 00 00 55 00 02 00 7C
+R 00 00 00 00 02 02 00 01 02 05 00 0E 01 08 00 01
+T 00 B8 00 00 39 00 BF FA 8F 5E
+R 00 00 00 00 02 02 00 11
