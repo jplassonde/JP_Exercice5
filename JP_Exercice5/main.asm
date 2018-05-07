@@ -38,7 +38,6 @@ BLANK:
 .ENDLITERAL 
 
 _main:
-		
 	mov [int_flag], 0						; Init RAM flag to 0
 	or reg[Echo_IntEn_ADDR], Echo_MASK		; Enable GPIO Int on Echo pin
 	M8C_EnableIntMask INT_MSK0, INT_MSK0_GPIO
