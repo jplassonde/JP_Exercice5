@@ -94,7 +94,7 @@ _main:
 	push X
 	add SP, 4		; Allocate 4 bytes for results
 
-;---- FP Convert 
+;---- UL to FP Convert ---------
 	mov A, 0
 	push A 			; FP convert result address
 	push X			
