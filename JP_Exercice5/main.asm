@@ -36,6 +36,7 @@ BLANK:
 	asciz "     "
 
 .ENDLITERAL 
+
 _main:
 		
 	mov [int_flag], 0						; Init RAM flag to 0
@@ -85,7 +86,7 @@ _main:
 	mov X, 0
 	lcall LCD_Position
 
-;----- 
+;----- Set result pointer & allocate 4 bytes for pointer
 	mov A, 0		; Push result address at current sp + 2
 	push A			; MSByte = 0
 	mov X, SP
