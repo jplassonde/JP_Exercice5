@@ -162,4 +162,3 @@ _main:
 	jnz .sleep_delay			; loop until timer expired (1 second each loop)
 
 	jmp .loop					; Jump back to main loop.
-
