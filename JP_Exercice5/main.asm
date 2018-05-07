@@ -34,7 +34,6 @@ area text(rom, rel )
 .LITERAL 
 BLANK:
 	asciz "     "
-
 .ENDLITERAL 
 
 _main:
